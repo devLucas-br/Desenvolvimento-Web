@@ -4,6 +4,7 @@ Eng da Computação - UniPinhal
 
 Este repositório tem a função de mostrar meu desenvolvimento web com HTML, CSS e JavaScript, além de servir como material de estudo para qualquer um interessado.
 
+
 Conteúdo HTML5:
 
   Sintaxe
@@ -21,6 +22,7 @@ Conteúdo HTML5:
   Input's
   
   ...
+  
 
 Conteúdo CSS3:
 
@@ -35,6 +37,7 @@ Conteúdo CSS3:
   Backgrounds
   
   ...
+  
 
 JavaScript
 
