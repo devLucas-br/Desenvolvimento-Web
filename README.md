@@ -14,7 +14,7 @@ Conteúdo HTML5:
   
   Elementos:
   
-    Tags semânticas e seus atributos
+  Tags semânticas e seus atributos.
     
   Div's
   
