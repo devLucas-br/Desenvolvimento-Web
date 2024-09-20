@@ -12,9 +12,7 @@ Conteúdo HTML5:
   
   Head / Body
   
-  Elementos:
-  
-  Tags semânticas e seus atributos.
+  Elementos: Tags semânticas e seus atributos
     
   Div's
   
