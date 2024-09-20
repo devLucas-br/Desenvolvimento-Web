@@ -1,4 +1,5 @@
 Lucas Alves Lupinacci - 20 anos
+
 Eng da Computação - UniPinhal
 
 Este repositório tem a função de mostrar meu desenvolvimento web com HTML, CSS e JavaScript, além de servir como material de estudo para qualquer um interessado.
