@@ -52,5 +52,91 @@
     <a href="https://exemplo.com" target="_blank">Abre em outra aba</a>
     <a href="mailto:luucas.github@gmail.com">Manda um email</a>
     <a href="index.html">Abre uma seção (arquivo)</a>
+
+    <!-- Mídias -->
+    
+    <img src="imagens/html5_logo.png" alt="texto alternativo"> <!-- Imagem: src = caminho da imagem -->
+    <audio controls> <!-- Áudio: controls = play/pause -->
+        <source src="audio.mp3" type="audio/mp3"> <!-- type = tipo do arquivo (mp3/mpeg) -->
+        Seu navegador não suporta este aúdio <!-- Caso áudio não rodar aparece esta mensagem -->
+    </audio>
+    <video width="320" height="240" controls> <!-- Vídeo: controls = play/pause -->
+        <source src="video.mp4" type="video/mp4"> <!-- type = tipo do arquivo (mp4/mov) -->
+        Seu navegador não suporta este vídeo
+    </video>
+
+    <!-- Inputs: Comandos de Entrada -->
+    <input type="text" placeholder="Text input">
+    <input type="password" placeholder="Password">
+    <input type="email" placeholder="Email">
+    <input type="number" placeholder="Number">
+    <input type="date">
+    <input type="checkbox"> Check me
+    <input type="radio" name="gender" value="male"> Homem
+    <input type="radio" name="gender" value="female"> Mulher
+    <input type="file">
+    <input type="submit" value="Submit">
+    <input type="reset" value="reset">
+    <input type="button" value="click me">
+
+    <!-- Formulários -->
+    <form action="/submit-form" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Tables: Tabelas -->
+    <table> <!-- Inicia uma tabela -->
+        <tr> <!-- Começa uma linha -->
+            <th>Header 1</th> <!-- 'Títulos' -->
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Linha 1, célula 1</td> <!-- Células abaixo do 'título' -->
+            <td>Linha 1, célula 2</td>
+        </tr>
+        <tr>
+            <td>Linha 2, célula 1</td>
+            <td>Linha 2, célula 2</td>
+        </tr>
+    </table>
+
+    <!-- Tag's de Divisões Estruturais -->
+
+    <header> <!-- Cabeçalho: logos, títulos, menus de navegação... -->
+        <h1>Meu Site</h1> 
+        <nav> <!-- Bloco de Navegação: links para outras páginas do site -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!-- Conteúdo Principal: deve ser único em uma página, contém o conteúdo mais importante -->
+        <article> <!-- Conteúdo Autônomo: artigos, postagens, notícias -->
+            <h2>Título do Artigo</h2>
+            <p>Conteúdo...</p>
+            <section> <!-- Seções do Documento: divide os conteúdos em partes lógicas, como capítulos -->
+                <h3>Título da Seção</h3> 
+                <p>Conteúdo...</p>
+            </section>
+            <aside> <!-- Conteúdo Secundário: links relacionados, informações extras, anúncios -->
+                <h3>Artigos Relacionados</h3>
+                <ul>
+                    <li><a href="#">Artigo 1</a></li>
+                    <li><a href="#">Artigo 2</a></li>
+                </ul>
+            </aside>
+            <footer> <!-- Rodapé: informações de copyright, políticas de privacidade -->
+                <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+            </footer>
+        </article>
+    </main>
 </body>
 </html>
