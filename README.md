@@ -4,6 +4,8 @@ Eng da Computação - UniPinhal
 
 Este repositório tem a função de mostrar meu desenvolvimento web com HTML, CSS e JavaScript, além de servir como material de estudo para qualquer um interessado.
 
+OBS: CLIQUE NO BOTÃO CSS
+
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]() <br>
 HTML (HyperText Markup Language) é uma linguagem de marcação utilizada para estruturar o conteúdo de páginas na web. Ela define a maneira como o conteúdo é organizado e exibido em navegadores.
 <ul>
@@ -12,7 +14,7 @@ HTML (HyperText Markup Language) é uma linguagem de marcação utilizada para e
   <li>Pode incluir atributos para personalizar e fornecer informações adicionais.</li>
 </ul>
   
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]() <br>
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://flexboxfroggy.com/) <br>
 CSS (Cascading Style Sheets) é uma linguagem de estilo usada para descrever a apresentação de documentos escritos em HTML ou XML. Enquanto o HTML define a estrutura e o conteúdo de uma página da web, o CSS     controla como esses elementos serão exibidos, permitindo a estilização de layouts, cores, fontes, e muito mais. CSS traz a separação entre o conteúdo (HTML) e a apresentação (design visual), tornando o   desenvolvimento web mais modular e eficiente. <br>
 <ul>
   <li>CSS controla a aparência e o layout de páginas web, separando o design da estrutura do conteúdo;</li>
