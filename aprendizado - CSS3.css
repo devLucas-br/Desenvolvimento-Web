@@ -1,0 +1,34 @@
+*{ /* Seleciona todos os elementos da página */
+    box-sizing: border-box; /* Define como será calculado altura e largura dos elementos */
+}
+
+body{ /* Seleciona o corpo da página, onde é apresentado os elementos*/
+    margin: 0; /* Margem da página */
+    padding: 0; /* Preenchimento entre conteúdo e borda */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte de letra que será apresentada */
+    background-color: white; /* Define a cor de fundo da página */
+    /* Cores podem ser definidas por nome, RGB, HEX e HSL */
+    background-image: url("imagem.png"); /* Define uma imagem de fundo */
+    background-repeat: no-repeat; /* Não deixa a imagem se repetir */
+    background-size: cover; /* Faz a imagem cobrir a página inteira, sem sobrar espaço */
+    color: black; /* Altera cor da letra da página */
+    display: flex; /* Muda a forma como manipulamos as posições dos elementos */
+}
+
+.caixa{
+    width: 300px; /* Largura do elemento */
+    min-height: 300px; /* Altura mínima do elemento */
+    /* Tamanhos podem ser definidos de diferentes formas */
+    border: 2px dotted black; /* Cria uma borda em volta do elemento */
+    /* Sintaxe: expessura - estilo - cor */
+    margin: 1%; /* Distância entre este elemento e outros */
+    padding: 1%; /* Espaço entre a borda e o conteúdo inserido na caixa */
+    box-shadow: 2px 2px 4px darkblue; /* Cria uma sombra depois da borda */
+    /* Sintaxe: Horizontal - Vertical - Espalhamento - Cor */
+    float: left; /* Troca direção dos elementos para horizontal */
+}
+
+h1{
+    text-align: center; /* Alinha o texto para o centro */
+    text-decoration: underline; /* Adiciona uma decoração de texto */
+}

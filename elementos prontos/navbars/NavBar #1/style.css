@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topo{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.itemNav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+.itemNav a:hover{
+    background-color: #555;
+}
