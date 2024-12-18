@@ -4,6 +4,10 @@ Eng da Computação - UniPinhal
 
 Este repositório tem a função de mostrar meu desenvolvimento web com HTML, CSS e JavaScript, além de servir como material de estudo para qualquer um interessado.
 
+Site Interativo abaixo 
+
+[![WEBSITE](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://devlucas-br.github.io/Desenvolvimento-Web/)
+
 OBS: CLIQUE NO BOTÃO CSS
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]() <br>
